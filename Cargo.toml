@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "eso_lib",
+    "eso_parser",
+    "benchmark",
+]
+
+[profile.release]
+debug = 1
+
+[profile.bench]
+lto = "fat"

@@ -1,0 +1,12 @@
+[package]
+name = "eso_parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+derive_more = "0.99"
+serde = "1.0"
+fast-float = "0.2.0"
+atoi = "1.0"

@@ -1,0 +1,18 @@
+[package]
+name = "benchmark"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eso_parser = { path = "../eso_parser" }
+eso_lib = { path = "../eso_lib" }
+rayon = "1.5"
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "parse_bench"
+harness = false
