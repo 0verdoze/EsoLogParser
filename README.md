@@ -2,7 +2,7 @@
 
 I created this some time ago to extract some data from ESO fight logs, and decided i might as well share it
 
-Its partially focussed on speed, rellies SIMD, achieving ~430MiB/s per thread on Zen2 CPU
+Its partially focussed on speed, rellies on SIMD usage, achieving ~430MiB/s per thread on Zen2 CPU
 
 There are some missed optimizations but its more than enough for my use case
 
